@@ -1,1 +1,119 @@
-<!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Freelancer</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<h1 class="nav-title"><a class="navbar-link title" href="#">Start Bootstrap</a></h1>
+				<ul class="navbar-list">
+				<li class="navbar-item"><a class="navbar-link" href="#">Portfolio</a></li>
+				<li class="navbar-item"><a class="navbar-link" href="#">About</a></li>
+				<li class="navbar-item"><a class="navbar-link" href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header class="home-container">
+		<img class="image-home" src="assets/images/profile.png" alt="Profile">
+		<h2 class="home-title">Start Bootstrap</h2>
+			<div class="star">
+				<hr class="starline">
+				<span><i class="fa fa-star" aria-hidden="true"></i></span>
+				<hr class="starline">
+			</div>
+			<p class="text-home">Web Developer - Graphic Artist - User Experience Designer</p>
+	</header>
+	<main>
+		<section class="portfolio-container">
+			<h3 class="subtitle">Portfolio</h3>
+			<div class="star dark">
+				<hr class="starline dark">
+				<span><i class="fa fa-star" aria-hidden="true"></i></span>
+				<hr class="starline dark">
+			</div>
+			<article class="image-container">
+				<img class="image-porfolio" src="assets/images/portfolio/cabin.png" alt="Cabaña">
+				<img class="image-porfolio" src="assets/images/portfolio/game.png" alt="Control Videojuego">
+			</article>
+			<article class="image-container">
+				<img class="image-porfolio" src="assets/images/portfolio/cake.png" alt="Torta">
+				<img class="image-porfolio" src="assets/images/portfolio/safe.png" alt="Caja Fuerte">
+			</article>
+			<article class="image-container">
+				<img class="image-porfolio" src="assets/images/portfolio/circus.png" alt="Circo">
+				<img class="image-porfolio" src="assets/images/portfolio/submarine.png" alt="Submarino">
+			</article>
+		</section>
+		<section class="about-container">
+			<article>
+				<h3 class="subtitle about">About</h3>
+				<div class="star">
+					<hr class="starline">
+					<span><i class="fa fa-star" aria-hidden="true"></i></span>
+					<hr class="starline">
+				</div>
+				<div class="row">
+					<div class="text-about-container">
+						<p class="text-about left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+					</div>
+					<div class="text-about-container">
+						<p class="text-about">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+					</div>
+				</div>
+				
+			</article>
+			<article>
+			<a href="#" class="button button-ghost"><i class="fa fa-download icon-button" aria-hidden="true"></i> Download Theme</a>
+			</article>
+		</section>
+		<section class="contact-container">
+			<article>
+				<h3 class="subtitle">Contact Me</h3>
+				<div class="star dark">
+					<hr class="starline dark">
+					<span><i class="fa fa-star" aria-hidden="true"></i></span>
+					<hr class="starline dark">
+				</div>
+			</article>
+			<form class="contact-form">
+				<input class="text-input" name="searchbox" onfocus="if (this.value=='Name') this.value = ''" type="text" value="Name">
+				<hr class="hr-form">
+				<input class="text-input" name="searchbox" onfocus="if (this.value=='Email Address') this.value = ''" type="text" value="Email Address">
+				<hr class="hr-form">
+				<input class="text-input" name="searchbox" onfocus="if (this.value=='Phone Number') this.value = ''" type="text" value="Phone Number">
+				<hr class="hr-form">
+				<input class="text-input" name="searchbox" onfocus="if (this.value=='Message') this.value = ''" type="text" value="Message">
+				<hr class="hr-form">
+				<a href="#" class="button button-bg">Send</a>
+			</form>
+		</section>
+	</main>
+	<footer class="footer-container">
+		<div class="footer-blocks">
+			<p class="title-footer">Location</p>
+			<p class="text-footer">3481 Melrose Place </p>
+			<p class="text-footer">Beverly Hills, CA 90210</p>
+		</div>
+		<div class="footer-blocks">
+			<p class="title-footer">Around the web</p>
+			<div>
+				<span class="fa-stack fa-2x"> <i class="fa fa-circle-thin fa-stack-2x fa-1x"></i><i class="fa fa-facebook icons-footer" aria-hidden="true"></i></span>
+				<span class="fa-stack fa-2x"> <i class="fa fa-circle-thin fa-stack-2x fa-1x"></i><i class="fa fa-google-plus icons-footer" aria-hidden="true"></i></span>
+				<span class="fa-stack fa-2x"> <i class="fa fa-circle-thin fa-stack-2x fa-1x"></i><i class="fa fa-twitter icons-footer" aria-hidden="true"></i></span>
+				<span class="fa-stack fa-2x"> <i class="fa fa-circle-thin fa-stack-2x fa-31"></i><i class="fa fa-linkedin icons-footer" aria-hidden="true"></i></span>
+				<span class="fa-stack fa-2x"> <i class="fa fa-circle-thin fa-stack-2x fa-1x"></i><i class="fa fa-dribbble icons-footer" aria-hidden="true"></i></span>
+			</div>
+		</div>
+			<div class="footer-blocks">
+			<p class="title-footer">About Freelancer</p>
+			<p class="text-footer">Freelance is a free to use, open source Bootstrap theme created by <a class="footer-link" href="#">Start Bootstrap</a>.</p>
+		</div>
+		<p class="copy-footer">Copyright © Your Website 2017</p>
+	</footer>
+</body>
+</html>
