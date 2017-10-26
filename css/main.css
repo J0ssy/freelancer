@@ -58,6 +58,7 @@ body {
 	text-transform: uppercase;
 	font-weight: bold;
 	cursor: pointer;
+	transition: color .3s ease-out;
 }
 
 /*Contenedor Categorías Menú*/
@@ -178,6 +179,7 @@ hr.dark {
 	display: inline-block;
 }
 
+/*Estrella oscura padding*/
 .star.dark {
 	margin-bottom: 30px;
 }
@@ -187,6 +189,7 @@ hr.dark {
 	height: auto;
 	max-width: 349px;	
 	margin-bottom: 32px;
+	z-index: 1;
 }
 
 /*Contenedor Sección About*/
@@ -243,6 +246,7 @@ hr.dark {
 .button-ghost {
 	border-color: white;
 	color: white;
+	transition: color .3s ease-out;
 }
 
 /*Botón "sobre"*/
@@ -350,19 +354,54 @@ hr.dark {
 	line-height: 1.7;
 }
 
-/*Íconos del footer*/
+/*Íconos del footer
 .icons-footer {
 	font-size: 20px;
-}
+}*/
 
 /*Enlace del footer*/
 .footer-link {
 	color: #18A878;
 	text-decoration: none;
 	line-height: 1.7;
+	transition: color .3s ease-out;
 }
+
+.footer-link:hover {
+	color: #FFF;
+}
+
+
 
 /*Copyright del footer*/
 .copy-footer {
 	padding-top: 300px;
+}
+
+
+/*Íconos por separado*/
+.icons-footer {
+	font-size: 20px;
+	color: #FFF;
+	border-radius: 50%;
+	border: 1px solid #FFF;
+	padding: 8px;
+	margin-left: 30px;
+	transition: color .3s ease-out;
+	cursor: pointer;
+}
+
+.icons-footer:hover {
+	background-color: #FFF;
+	color: #2C3E50;
+}
+
+.fa-facebook {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.fa-twitter, .fa-dribbble, .fa-linkedin  {
+	padding-left: 6px;
+	padding-right: 6px;
 }
